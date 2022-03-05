@@ -58,10 +58,10 @@ input:hover {
   transition: 0.5s;
   background-color: pink;
   width: 60px;
-  height: 3px;
+  height: 4px;
   left: 0px;
   position: absolute;
-  top: 54px;
+  top: 52px;
 }
 
 .task-title div:first-child {

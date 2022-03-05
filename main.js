@@ -17,14 +17,14 @@ let eventTask="all";
 let underLine = document.getElementById("under-line");
 
 
-taskTitle.forEach(menu=>menu.addEventListener("click",(e)=>underLineIndicator(e)))
+taskTitle.forEach(menu=>menu.addEventListener("click",(e)=>{underLineIndicator(e); console.log(e);}))
 
 
 
 function underLineIndicator(e){
         underLine.style.width = e.target.offsetWidth +"px";
         underLine.style.left = e.target.offsetLeft + "px";
-        underLine.style.top = e.target.offsetTop + e.Target.offsetHeight + "px";
+        underLine.style.top = e.target.offsetTop + e.target.offsetHeight -4.5 + "px";
 
 
 }
