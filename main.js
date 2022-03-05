@@ -17,19 +17,13 @@ let eventTask="all";
 let underLine = document.getElementById("under-line");
 
 
-
-for(let i=1;i<taskTitle.length;i++){
-    taskTitle[i].addEventListener("click",function(event){filter(event);});
-    
-
-}
 taskTitle.forEach(menu=>menu.addEventListener("click",(e)=>underLineIndicator(e)))
 
 
-function underLineIndicator(e){
 
-        underLine.style.left = e.target.offsetLeft + "px";
+function underLineIndicator(e){
         underLine.style.width = e.target.offsetWidth +"px";
+        underLine.style.left = e.target.offsetLeft + "px";
         underLine.style.top = e.target.offsetTop + e.Target.offsetHeight + "px";
 
 
@@ -38,8 +32,15 @@ function underLineIndicator(e){
 
 userInput.addEventListener("click", function(){userInput.value="";})
 userInput.addEventListener("click", function(){userInput.placeholder="";})
-userInput.addEventListener("keyup", function(event){if(event.keyCode ===13){ event.preventDefault(); playButton.click()}})
+userInput.addEventListener("keyup", function(event){if(event.keyCode ===13){ event.preventDefault(); addTask()}})
 playButton.addEventListener("click", addTask);
+
+for(let i=1;i<taskTitle.length;i++){
+    taskTitle[i].addEventListener("click",function(event){filter(event);});
+    
+
+}
+
 
 
 function addTask(){
