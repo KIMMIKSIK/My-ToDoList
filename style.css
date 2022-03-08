@@ -49,7 +49,6 @@ input:hover {
 }
 .task-title {
   border-bottom: 1px solid lightgray;
-
   display: flex;
   position: relative;
 }
