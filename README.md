@@ -16,6 +16,6 @@
 8. enter키를 사용해서도 내용 입력이 가능하게 하였습니다.
 ___
 
-**skill:html,css,vanilla javascript**
+**skill: html,css,vanilla javascript**
 
 참조: https://msiktodolist.netlify.app/
