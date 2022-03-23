@@ -2,7 +2,8 @@
 ### 자바스크립트 실습 공부를 본격적으로 시작하면서 만들게 된 2번째 프로젝트입니다. 
 #### 오늘 하루 해야할 일들을 정리하여 관리할 수 있는 list입니다.
 
-https://github.com/KIMMIKSIK/My-ToDoList/issues/1
+![image](https://user-images.githubusercontent.com/98815511/159710821-cb2569f8-4555-49fc-9f1e-a6d40d18029b.png)
+
 
 1. 운동, 공부, 취미 등 내가 오늘 해야할 일들을 input창에 입력하고 +버튼을 통해 등록합니다. 
 2. +버튼을 누르면 task-list가 하나씩 추가되고 render함수를 통해 화면에 그려줍니다.
